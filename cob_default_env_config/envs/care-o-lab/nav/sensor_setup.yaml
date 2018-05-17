@@ -1,0 +1,41 @@
+feature_sources:
+- laserline:
+    feature_type: line # vs. currently point/pose
+    base: robot_based # vs. map_based
+    default_measurement_covariance: [0.2, 0.0, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.0, 0.2]
+    default_assumption_covariance:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+- lasermarker:
+    feature_type: point
+    base: robot_based # vs. map_based
+    default_measurement_covariance: [0.2, 0.0, 0.0, 0.2]
+    default_assumption_covariance:  [0.0, 0.0, 0.0, 0.0]
+- lasercorner:
+    feature_type: pose
+    base: robot_based # vs. map_based
+    default_measurement_covariance: [0.2, 0.0, 0.0, 0.0, 0.2, 0.0, 0.0, 0.0, 0.2]
+    default_assumption_covariance:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#- rfid:
+#    feature_type: point
+#    base: robot_based # vs. map_based
+#    default_measurement_covariance: [0, 0, 0, 0]
+#    default_assumption_covariance: [0, 0, 0, 0]
+- ubisense:
+    feature_type: point
+    base: map_based # vs. robot_based
+    default_measurement_covariance: [0.4, 0.0, 0.0, 0.4]
+    default_assumption_covariance:  [0.0, 0.0, 0.0, 0.0]
+- karto_slam:
+    feature_type: pose
+    base:   map_based
+    default_measurement_covariance: [0.4, 0.0, 0.0, 0.0, 0.4, 0.0, 0.0, 0.0, 0.2]
+    default_assumption_covariance:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#- grid:
+#    feature_type: grid
+#    base:   robot_based
+#    default_measurement_covariance: [0, 0, 0, 0]
+#    default_assumption_covariance:  [0, 0, 0, 0]
+- lasergrid:
+    feature_type: pose
+    base: robot_based
+    default_measurement_covariance: [0.3, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 0.3]
+    default_assumption_covariance:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
