@@ -1,7 +1,7 @@
-image: map.pgm
+image: restricted_map.png
 resolution: 0.250000
 origin: [-119.199997, -228.000000, 0.000000]
 negate: 0
-occupied_thresh: 0.5
+occupied_thresh: 0.65
 free_thresh: 0.196
 
