@@ -1,7 +1,7 @@
 source_id: "lasercorner"
 features:
   - id: 0
-    pose: [-2.10327, -1.1436, -0.428378]
+    pose: [-2.0927, -1.28943, -0.428378]
     description: imark_pose_lasercorner_0
   - id: 1
     pose: [-0.303731, -0.505519, 2.7724]
@@ -10,7 +10,7 @@ features:
     pose: [-0.485485, 0.278524, -2.2029]
     description: imark_pose_lasercorner_2
   - id: 3
-    pose: [5.43118, -3.94446, 2.59213]
+    pose: [5.16602, -4.09882, 2.59213]
     description: imark_pose_lasercorner_3
   - id: 4
     pose: [1.6967, -5.33211, 1.18671]
@@ -37,7 +37,7 @@ features:
     pose: [0.260412, 12.056, 2.73021]
     description: imark_pose_lasercorner_11
   - id: 12
-    pose: [-4.80918, 3.51946, 0]
+    pose: [5.13504, -2.90383, -1.67952]
     description: imark_pose_lasercorner_12
   - id: 13
     pose: [6.00042, -5.31877, 1.115]
@@ -45,3 +45,12 @@ features:
   - id: 14
     pose: [8.09414, -4.34809, 2.77855]
     description: imark_pose_lasercorner_14
+  - id: 15
+    pose: [4.69945, -2.97276, -0.494734]
+    description: imark_pose_lasercorner_15
+  - id: 16
+    pose: [4.57415, -1.09622, 2.61208]
+    description: imark_pose_lasercorner_16
+  - id: 17
+    pose: [4.19235, -1.23511, 1.2516]
+    description: imark_pose_lasercorner_17
