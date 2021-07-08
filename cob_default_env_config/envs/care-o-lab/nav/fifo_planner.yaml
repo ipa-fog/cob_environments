@@ -1,0 +1,2 @@
+fifo_size: 2            # Numer of points to hold in the fifo
+point_spacing: 0.1      # Spacing for the interpolation in m
